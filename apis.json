@@ -1,0 +1,66 @@
+{
+    "name": "Contactually",
+    "description": "Contactually is an intelligent CRM for real estate professionals.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1613-contactually.jpg",
+    "tags": [
+        "api provider",
+        "contacts",
+        "crm",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/contactually\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Contactually",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1613-contactually.jpg",
+            "humanURL": "http:\/\/contactually.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/contactually-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/www.contactually.com\/api"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.contactually.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.contactually.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/contactually"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/contactually"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developers.contactually.com\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/contactually"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/contactually.com\/"
+        }
+    ]
+}
