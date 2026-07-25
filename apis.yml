@@ -1,8 +1,27 @@
 aid: contactually
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contactually.png
 name: Contactually
-description: Contactually is a company surfaced as a portfolio company of 500-global, slow-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Contactually was a cloud-based CRM (customer relationship management) platform focused on helping
+  real estate agents, brokers, and other relationship-driven professionals nurture their networks
+  through follow-up reminders, contact bucketing, pipelines, and automated outreach. Founded around
+  2011, it was acquired by real estate brokerage Compass on February 27, 2019, and had already been
+  powering Compass's own CRM. Contactually permanently ceased operations on March 31, 2022. It
+  historically exposed a v2 REST API (api.contactually.com) documented at developers.contactually.com
+  for contacts, buckets, notes, tasks, and webhooks, but that developer surface, the API hosts, and
+  all SDKs are now offline. This API Evangelist profile is retained as a historical record of a
+  defunct provider; no live API, documentation, SDK, or event surface remains to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/contactually/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +30,22 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: compass
+x-acquired-date: '2019-02-27'
+x-shutdown-date: '2022-03-31'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- CRM
+- Customer Relationship Management
+- Real Estate
+- Contact Management
+- Relationships
+- Sales
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/contactually-domain-security.yml
 - type: Website
   url: https://contactually.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
