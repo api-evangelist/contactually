@@ -34,7 +34,7 @@ x-status: defunct
 x-acquired-by: compass
 x-acquired-date: '2019-02-27'
 x-shutdown-date: '2022-03-31'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
